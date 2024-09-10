@@ -11,7 +11,7 @@ import { components } from '~/src/riseComponents';
 
 export default function Home() {
   return (
-    <View style={{ flex: 1, marginTop: 50 }}>
+    <View style={{ flex: 1, paddingTop: 50, backgroundColor: '#FFFFFF' }}>
       <Rise
         modelSource={modelSource}
         components={components}

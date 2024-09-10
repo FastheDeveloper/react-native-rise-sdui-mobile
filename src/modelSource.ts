@@ -1,3 +1,5 @@
-import { createWSModelSource } from "@rise-tools/ws-client";
+import { createWSModelSource } from '@rise-tools/ws-client';
 
-export const modelSource = createWSModelSource("ws://192.168.0.213:3015");
+export const modelSource = createWSModelSource(
+  'https://react-native-rise-sdui-server-1.onrender.com/:3015'
+);
